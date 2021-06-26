@@ -1,0 +1,12 @@
+Pikachu
+16
+Electrico
+1300
+180
+220
+120
+160
+Quick Attack
+ThunderShock
+Growl
+Tail Whip

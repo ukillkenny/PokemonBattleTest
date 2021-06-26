@@ -1,0 +1,14 @@
+Charmander
+10
+Fuego
+1000
+116
+180
+93
+118
+Fire
+Dragon Rage
+Smokescreen
+Growl
+Smokescreen
+
