@@ -12,11 +12,8 @@ namespace Pokemon
        
        public void Start()
         {
-
+            
             RunMainMenu();
-            WriteLine("Press any key to exit...");
-            ReadKey(true);
-
         }
 
         private void RunMainMenu()
