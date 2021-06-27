@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Pokemon
 {
-    class BattleFace
+    class BattleZone
     {
        
     }

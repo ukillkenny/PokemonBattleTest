@@ -8,7 +8,7 @@ namespace Pokemon
     public class Gameplay
     {
         private Player player;
-        private BattleFace battleface;
+        private BattleZone battleface;
        
         public Gameplay()
         {

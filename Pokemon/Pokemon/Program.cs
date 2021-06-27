@@ -7,18 +7,16 @@ namespace Pokemon
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
             bool gameOpen = true;
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.Red;
+            
 
-            Game game = new Game();
+            Game mygame = new Game();
+            mygame.Start();
 
-            do
-            {
-                gameOpen = game.Game();
-
-            } while (gameOpen);
+          
         }
     }
 }

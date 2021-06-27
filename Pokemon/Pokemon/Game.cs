@@ -2,24 +2,28 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using static System.Console;
+using System.Linq;
 
 namespace Pokemon
 {
     class Game
     {
-        private MainMenu mainmenu;
-        private Gameplay gameplay;
-
-
-        public Game()
+       
+       public void Start()
         {
-           mainmenu = new MainMenu();
-           gameplay = new Gameplay();
+
+            RunMainMenu();
+            WriteLine("Press any key to exit...");
+            ReadKey(true);
+
         }
 
-        public bool Play()
+        private void RunMainMenu()
         {
-
+            string[] options = { "New Game", "Load Game", "Exit" };
+            Menu mainMenu = new Menu(options);
+            int selectedIndex = mainMenu.Run();
         }
 
     }
