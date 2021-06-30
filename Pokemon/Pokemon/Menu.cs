@@ -28,12 +28,12 @@ namespace Pokemon
 
                 if (i == SelectIndex)
                 {
-                    prefix = "-->";
+                    prefix = "                           ->";
                     ForegroundColor = ConsoleColor.White;
                 }
                 else
                 {
-                    prefix = " ";
+                    prefix = "                           ";
                     ForegroundColor = ConsoleColor.Red;
                 }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using static System.Console;
 
 namespace Pokemon
 {
@@ -12,6 +13,7 @@ namespace Pokemon
        
         public Gameplay()
         {
+
 
         }
 
