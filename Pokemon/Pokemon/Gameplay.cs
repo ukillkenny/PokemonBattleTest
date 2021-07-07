@@ -13,10 +13,17 @@ namespace Pokemon
        
         public Gameplay()
         {
-
-
+            Clear();
+            player = new Player("Ash");
+            battleface = new BattleZone();
+           
         }
 
+        public bool Play()
+        {
+
+            return true;
+        }
       
     }
 }

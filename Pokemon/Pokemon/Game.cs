@@ -9,10 +9,13 @@ namespace Pokemon
 {
     class Game
     {
+        public Game()
+        {
 
+        }
         public void Start()
         {
-            
+
             RunMainMenu();
         }
 
@@ -24,18 +27,29 @@ namespace Pokemon
 
             switch (selectedIndex)
             {
-                case 0:
-                    NewGame();
-                    break;
-                case 2:
-                    LoadGame();
-                    break;
-                case 3:
-                    ExitGame();
-                    break;
+                 case 0:
+                 NewGame();
+                 break;
+                 case 2:
+                 LoadGame();
+                 break;
+                 case 3:
+                 ExitGame();
+                 break;
             }
+
         }
 
+
+        private void NewGame()
+        {
+            Gameplay gameplay = new Gameplay();
+        }
+
+        private void LoadGame()
+        {
+
+        }
         private void ExitGame()
         {
             WriteLine("\nPress any key to exit...");
@@ -43,15 +57,6 @@ namespace Pokemon
             Environment.Exit(0);
         }
 
-        private void NewGame()
-        {
-
-        }
-
-        private void LoadGame ()
-        {
-
-        }
 
     }
 }
