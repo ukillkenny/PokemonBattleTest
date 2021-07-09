@@ -44,6 +44,7 @@ namespace Pokemon
         private void NewGame()
         {
             Gameplay gameplay = new Gameplay();
+            
         }
 
         private void LoadGame()

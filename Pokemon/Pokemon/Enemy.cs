@@ -6,5 +6,12 @@ namespace Pokemon
 {
     class Enemy
     {
+        private string name;
+
+        public Enemy(string name)
+        {
+            this.name = name;
+        }
     }
+
 }

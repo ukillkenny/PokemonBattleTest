@@ -44,7 +44,7 @@ namespace Pokemon
 			}
 			if (lines.Length >= 12)
 			{
-				P.moves.Add(MovementDatabase.GetMovement(lines[12])));
+				P.moves.Add(MovementDatabase.GetMovement(lines[12]));
 			}
 
 			return P;

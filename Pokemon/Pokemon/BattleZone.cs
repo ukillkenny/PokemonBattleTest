@@ -7,10 +7,29 @@ namespace Pokemon
 {
     class BattleZone
     {
+        enum Options { Fight, Save, Leave, Error }
+        enum OnFinishFightOption { Next, Save, Leave, Error}
 
-       public void Welcome()
+        private List<Enemy> enemies;
+        private int LastEnemySeen;
+
+        public BattleZone(int enemyAmount)
         {
-            WriteLine("Hi Ash! Welcome to the pokemon battlefield, select your opponent.");
+            enemies = new List<Enemy>();
+            for (int i = 0; i < enemyAmount; i++)
+            {
+                enemies.Add(new Enemy("Misty"));
+                enemies.Add(new Enemy("Ritchie"));
+                enemies.Add(new Enemy("Tyson"));
+            }
         }
+
+        public Player StayOnBattleFace (Player player)
+        {
+            WriteLine("Hi Ash! Welcome to the pokemon battlefield, select your opponent.\n");
+
+        
+        }
+
     }
 }

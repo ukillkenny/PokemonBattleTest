@@ -15,13 +15,13 @@ namespace Pokemon
         {
             Clear();
             player = new Player("Ash");
-            battleface = new BattleZone();
-           
+            battleface = new BattleZone(3);
+            Play();
         }
 
         public bool Play()
         {
-
+            player = battleface.StayOnBattleFace(player);
             return true;
         }
       
